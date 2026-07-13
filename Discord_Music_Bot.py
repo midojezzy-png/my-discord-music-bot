@@ -3,7 +3,7 @@ from __future__ import annotations
 import re
 import asyncio
 import requests
-
+import os
 from discord import Embed, Intents, Activity, Status, Color, ActivityType
 from discord import FFmpegOpusAudio, Message, utils
 from discord.ext import commands
@@ -228,4 +228,4 @@ async def on_setup():
 
 bot.setup_hook = on_setup
 
-bot.run('MTUyNjA0Njc0MzUxMzQwMzQxMw.G8ImEl.h5tcABZsyaMr9NnOtacVJfpG2a0dDDZtsNKx2c')
+bot.run(os.getenv('DISCORD_TOKEN'))
