@@ -1,0 +1,6 @@
+{
+  "$schema": "https://railway.com/railway.schema.json",
+  "deploy": {
+    "startCommand": "python Discord_Music_Bot.py"
+  }
+}
