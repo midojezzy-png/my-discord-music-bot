@@ -29,7 +29,7 @@ bot = commands.Bot(command_prefix='!',
 
 
 ytdl_format_options = {
-    'format': 'worstaudio',
+    'format': 'bestaudio/best',
     'outtmpl': '%(extractor)s-%(id)s-%(title)s.%(ext)s',
     'restrictfilenames': True,
     'nopylist': True,
