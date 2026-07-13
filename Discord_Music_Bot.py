@@ -51,11 +51,7 @@ def is_youtube_link(message_content):
 
 
 def is_link_valid(url):
-    try:
-        response = requests.head(url, allow_redirects=True)
-        return response.status_code == 200
-    except:
-        return False
+    return True
     
 
 def get_duration(time):
