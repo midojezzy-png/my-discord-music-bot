@@ -38,10 +38,11 @@ ytdl_format_options = {
     'logtostderr': False,
     'quiet': True,
     'no_warnings': True,
-    'default_search': 'ytsearch',
+    'default_search': 'auto',
     'source_address': '0.0.0.0',
     'extractor_args': {'youtube': {'player_client': ['android', 'web']}},
     'cookiefile': 'cookies.txt',
+    'http_chunk_size': 10485760,
 }
 def is_youtube_link(message_content):
     pattern = [r'https?://(?:www\.)?youtu\.be/([^/?]+)',r'https?://(?:www\.)?youtube\.com/watch\?v=([^&]+)']
