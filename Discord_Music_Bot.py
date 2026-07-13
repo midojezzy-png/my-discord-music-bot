@@ -41,7 +41,7 @@ ytdl_format_options = {
     'default_search': 'auto',
     'source_address': '0.0.0.0',
     'extractor_args': {'youtube': {'player_client': ['android', 'web']}},
-    'cookiefile': 'cookies.txt',
+
     'http_chunk_size': 10485760,
     'sleep_interval': 5,
 }
