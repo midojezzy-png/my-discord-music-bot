@@ -38,7 +38,7 @@ ytdl_format_options = {
     'logtostderr': False,
     'quiet': True,
     'no_warnings': True,
-    'default_search': 'scsearch',
+    'default_search': 'ytsearch',
     'source_address': '0.0.0.0',
 }
 def is_youtube_link(message_content):
